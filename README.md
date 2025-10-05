@@ -22,4 +22,16 @@ $ conda activate <name_enviroment>
 ```bash
 export PS1="\[\033[01;32m\]\u@\h:\w\n\[\033[00m\]\$ "
 ```
+## Installation
+### Installation the required packages
+
+```bash
+$ pip install -r requirements.txt
+```
+### setup the enviroment variables
+
+```bash 
+$ cp .env.example .env 
+```
+set your enviroment variables in the `.env` file. Like `api_key` value.
 
